@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODELO</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Calcule % de um numero</h1>
+        <p>
+          Bem vindo(a), esta pagina foi feita para ser calculada a % de um valor inteiro.<br>
+          No Valor Total inclua o numero inteiro.<br>
+          Na % a ser calculada, informe o valor a ser encontrato.<br>
+          OBS: Informe apenas valores, sem pontos.<br>
+        </p>
+     <form action="/" id="formularios" method="post">       
+
+        <label for="Valor-1">Valor Total:</label>
+        <input type="text" id="Vtotal">
+
+        <label for="Valor-2">% a ser calculada: </label>
+        <input type="text" id="total">
+
+       <button type="submit">Enviar</button>
+       
+       
+    </form>
+    <div id="resultado"></div>
+    <!-- div criada apenas para retornar o resultado -->
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
